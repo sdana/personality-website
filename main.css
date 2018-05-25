@@ -1,0 +1,128 @@
+/* * {
+    box-sizing: border-box;
+    margin: auto;
+} */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #84deff;
+    margin: 0 auto;
+    color: #ffffff;
+}
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 5em;
+}
+
+h3 {
+    font-size: 4em;
+}
+
+h4 {
+    font-size: 3em;
+}
+
+ul li {
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+
+
+.header-text {
+    color: #f442b3;
+    text-shadow: -4px 4px 3px #3f3f3f;;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image {
+    background-image: url("images/main-image.jpg");
+    background-repeat: none;
+    width: 1902px;
+    height: 850px;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+
+.sw-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    opacity: .9;
+}
+
+.main-quote {
+    font-size: 5em;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+    color: #fdff87;
+    text-shadow: 3px 4px 3px grey;
+    margin: 30px;
+    border-top: #f442b3 7px dotted;
+
+}
+
+.main-content-paragraph {
+    font-size: 2em;
+    color: white;
+    margin: 30px 50px;
+}
+
+.list-titles {
+    text-shadow: 1.5px 1.5px #3f3f3f;
+}
+
+#comm-div h3 {
+    /* display: flex;
+    flex-direction: row;
+    align-content: center; */
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+#comm-div ul {
+    display: block;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* .comm-list {
+    justify-content: center;
+} */
+
+.headshots {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.headshots img {
+    border-radius: 50%;
+    border: 6px #f442b3 dotted;
+}
+
+.celeb-list {
+    display: block;
+    margin: auto;
+    width: 85%;
+    padding: 20px;
+}
